@@ -1,0 +1,24 @@
+.menu {
+	position: absolute;
+	list-style: none;
+	list-style-type: none;
+}
+
+.menu-item {
+	display: inline;
+}
+
+.nav-link {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-link-home {
+	padding-right: 40px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.nav-link-learn {
+	font-size: 20px;
+}
