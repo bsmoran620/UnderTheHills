@@ -3,6 +3,7 @@ import './App.css';
 import Home from './screens/Home/index';
 import About from './screens/About';
 import Learn from './screens/Learn/index';
+import Core from './screens/Core/core';
 import NavBar from './screens/NavBar/index';
 import Footer from './screens/Footer/index';
 import {
@@ -32,10 +33,14 @@ class App extends Component {
  					path="/about" 
 					render={About} 
 				/>
-				<Route 
+				<Route
+					path="/learn"
+					render={() => <Core /> }
+				/>
+				{/*<Route 
 					path="/learn" 
 					render={() => <Learn data={this.props.data} /> } 
-				/>
+				/>*/}
 				{/* <Home data={this.props.data} /> */
 				<Footer />}
       		</div>

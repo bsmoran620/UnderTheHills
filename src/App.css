@@ -13,3 +13,17 @@
 .App-intro {
   font-size: large;
 }
+
+.objective {
+	background-image: url(images/street_grayscale.png);
+	background-size: cover;
+	height: 750px;
+	text-align: left;
+}
+
+.text-box-left {
+	display: inline-block;
+	padding-top: 500px;
+	padding-left: 100px;
+	width: 500px;
+}
