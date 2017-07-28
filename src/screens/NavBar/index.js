@@ -14,7 +14,7 @@ const NavBar = () => {
 				<ul className="menu">
 					<li className="menu-item">
 						{/* NavLink will manage active state for us */}
-						<NavLink className="nav-link nav-link-home" to="/">Under the Hills</NavLink>
+						<NavLink className="nav-link nav-link-home" to="/home">Under the Hills</NavLink>
 					</li>
 					<li className="menu-item">
 						<NavLink className="nav-link nav-link-learn" to="/learn">Learn More</NavLink>

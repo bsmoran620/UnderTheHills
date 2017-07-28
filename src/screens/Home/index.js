@@ -5,9 +5,9 @@ import PostContainer from './Components/PostContainer/index';
 class Home extends Component {
 	render() {
 		return (
-			<div className="Home">
+			<div className="home">
 				<h1>Content Coming January 2018</h1>
-					
+				<div className="coming-soon-img" />
 			</div>
 			/*<div className="Home">
 				<FeaturedContainer data={this.props.data.featuredPosts} />
